@@ -3,7 +3,7 @@ import classes from './Select.module.scss'
 
 const Select = props => {
   const htmlFor = `${props.label}-${Math.random()}`
-  console.log(props.options)
+  
   return (
     <div className={classes.Select}>
       <label htmlFor={htmlFor}>{props.label}</label>
