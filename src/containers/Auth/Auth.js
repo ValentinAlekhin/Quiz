@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classes from './Auth.module.scss'
 import Button from '../../UI/Button/Button'
-import Input from '../../UI/Input/Inpit'
+import Input from '../../UI/Input/Input'
 import is from 'is_js'
 
 export default class Auth extends Component {
